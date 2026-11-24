@@ -1,0 +1,24 @@
+Ursa assignment: Explore work patterns with Saya
+
+All 240 rows are generated fictional data: 24 workers, four teams, ten weeks.
+Version 2026-11-16. No Catenate employee records are included. Grain: one worker-week.
+
+In Saya, sign in with your exact enrolled email and open /classroom. Use the team and week filters, adjust a meeting-hours threshold, inspect rows, then download CSV for deeper work in a spreadsheet, SQL or Python.
+
+Suggested 60-minute activity
+1. Inspect grain, coverage and missing values (10 min). Check the dictionary. Do not replace missing AI/browser values with zero.
+2. Explore three questions (25 min): Which team has the highest mean meeting hours? What changed for Engineering before and after the meeting-policy pilot? Is observed AI use associated with completed tasks, and what could confound that comparison?
+3. Create two charts and one reproducible table/query (15 min). State each denominator, date window, sample size and exclusions. For AI exposure, use only paired observed values and divide total AI hours by total browser hours. Do not average individual percentages by accident.
+4. Write one testable recommendation and one limitation (10 min). Do not infer productivity, wellbeing, burnout or causal effects from these proxies.
+
+Submit in Ursa: https://ursa.catenate.io
+Use your Engineering log to link your repository or report, and attach evidence using the existing assignment workflow. Do not mark real baseline data as completed using this simulation.
+
+Submission requirements
+- One short report with a question, three quantified findings, two labeled charts and a recommendation.
+- Reproducible SQL, notebook or spreadsheet, with the dataset version, filters and missing-data rules.
+- A proposed experiment: intervention, comparison, outcome metric and guardrail.
+- A 2-minute demonstration during review. Use your own work; team discussion is welcome.
+
+Completion criteria: calculations reconcile to the stated population and units; charts identify the time window; analysis handles missing observations; recommendations distinguish association from causation; another student can reproduce the result.
+No new deadline is set by this extension. Follow the instructor's review schedule.

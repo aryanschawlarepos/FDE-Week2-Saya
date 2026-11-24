@@ -1,0 +1,13 @@
+Name:
+Dataset version: 2026-11-16
+Question:
+Filters and dates:
+Rows included / excluded and why:
+Finding 1 (value, units, denominator):
+Finding 2:
+Finding 3:
+Chart links:
+Reproduction steps / repository:
+Recommendation:
+Experiment and guardrail:
+Limitations and alternative explanations:

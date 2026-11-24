@@ -1,0 +1,16 @@
+field,definition
+employee_id,Fictional stable worker ID. Join on employee_id plus week_of for weekly records.
+team,"Fictional team, fixed for each worker."
+week_of,"Monday week start, 2026-09-07 through 2026-11-09."
+meeting_hours,Total scheduled meeting hours in the observation week. Not verified participation.
+focus_blocks,"Calendar gaps of at least 60 minutes. Opportunity, not verified focused work."
+after_hours_meetings,Count outside the fictional 09:00-17:00 local schedule.
+emails_sent,"Sent message count, not communication quality."
+emails_after_hours,Subset of emails_sent outside that schedule.
+drive_edits,Document edit events. Not completed deliverables.
+ai_tool_hours,"Observed AI-category browser hours. Blank means unavailable, not zero."
+browser_observed_hours,Total observed browser hours including AI time. Blank means unavailable. Not total working time.
+completed_tasks,Fictional completed task count. Tasks are not standardized for difficulty.
+reopened_tasks,Subset of completed tasks reopened during the same week.
+observation_days,"Number of observed weekdays, 3-5. Partial coverage can bias comparisons."
+meeting_policy,"Engineering changes to pilot from 2026-10-12. Observational synthetic scenario, not randomized."
